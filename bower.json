@@ -1,0 +1,21 @@
+{
+  "name": "middleware",
+  "description": "prueba middleware",
+  "main": "app.js",
+  "authors": [
+    "Juan Gomez"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
