@@ -32,3 +32,6 @@ node_modules
 # Components gulp
 public/assets/components
 
+# IDE config
+.idea
+

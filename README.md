@@ -1,7 +1,7 @@
 # Base Project NODEJS
 ## include sass, coffee and jade views
 
-# steps
+### steps
 
 1. Clone project
 2. Run `npm install`
