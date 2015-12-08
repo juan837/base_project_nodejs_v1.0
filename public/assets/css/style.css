@@ -5817,5 +5817,12 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-body {
-  background-color: red; }
+body .header {
+  background-color: #ffd798; }
+
+body .form {
+  background-color: #d5ccff;
+  padding: 20px; }
+
+body .list {
+  background-color: #95ffb1; }

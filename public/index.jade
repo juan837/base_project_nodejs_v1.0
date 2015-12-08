@@ -2,9 +2,42 @@
 html(lang='en')
     head
         meta(charset="UTF-8")
+        link(rel='stylesheet', href='assets/css/style.css')
         //title!= titulo
-        script(src='assets/components/jquery/dist/jquery.min.js')
-        script(src='assets/js/prueba.js')
-    body
-        h1 Aplicacion de inicio
 
+    body
+        .container
+            .header
+                .row
+                    .col-sm-12
+                        h1.text-center Aplicacion de inicio
+            .form
+                .row
+                    .col-sm-10
+                        form.form-horizontal
+                            .form-group
+                                label.col-sm-2.control-label(for='inputTitle') Nombre
+                                .col-sm-8
+                                    input.form-control(type='text',
+                                                        id='inputTitle',
+                                                        placeholder='nombre',
+                                                        name="name")
+                            .form-group
+                                label.col-sm-2.control-label(for='inputDescripcion',
+                                                            name="labelDescription") Descripcion
+                                .col-sm-8
+                                    input.form-control(type='text',
+                                                        id='inputDescripcion',
+                                                        placeholder='descripcion',
+                                                        name="description")
+                            .form-group
+                                .col-sm-offset-2.col-sm-2
+                                    button.btn.btn-default(type="submit") Guardar
+
+            .list
+                .row
+                    .col-sm-12
+                        ul.block-list
+
+        script(src='assets/components/jquery/dist/jquery.min.js')
+        script(src='assets/js/cliente.js')
